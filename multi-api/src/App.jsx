@@ -3,6 +3,7 @@ import { useState } from "react";
 import Header from "./components/layout/Header";
 import Home from "./components/pages/Home";
 import IP from "./components/pages/IP";
+import Pokemon from "./components/pages/Pokemon";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/ip" element={<IP />} />
+        <Route path="/pokemon" element={<Pokemon />} />
       </Routes>
     </BrowserRouter>
   );
