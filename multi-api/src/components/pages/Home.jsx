@@ -3,7 +3,7 @@ import APICard from "../cards/APICard";
 const apis = [
   { name: "IP", path: "/ip", description: "Retrieve your IP address" },
   { name: "Pokemon", path: "/pokemon", description: "Get information on every pokemon" },
-  { name: "Weather", path: "/weather", description: "View the weather" },
+  { name: "Starwars", path: "/starwars", description: "Get information on Starwars" },
 ];
 
 function Home() {
