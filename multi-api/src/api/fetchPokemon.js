@@ -2,7 +2,7 @@ import axios from "axios";
 
 export function fetchAllPokemon() {
   return axios
-    .get("https://pokeapi.co/api/v2/pokemon?limit=100000")
+    .get("https://pokeapi.co/api/v2/pokemon?limit=100")
     .then((res) => res.data.results)
     .catch((error) => {
       console.error("Error fetching Pokémon list:", error);
